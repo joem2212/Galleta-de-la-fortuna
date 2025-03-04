@@ -2,11 +2,11 @@
 	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
-
+	color: rgb(250, 242, 6);
 	color-scheme: light dark;
 
-	border-radius: 50%;
-
+	background-image: url(assets/selva.jpeg);
+	text-shadow: #64fb06;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -18,7 +18,7 @@ h1 {
 	animation: moverTexto 3s infinite;
 	text-align: center;
 	text-decoration: double;
-
+	text-shadow: #64fb06;
 	font-family: 'Times New Roman', Times, serif;
 	background-size: cover;
 	position: relative;
@@ -31,6 +31,7 @@ body {
 	margin: 0;
 }
 button {
+	text-shadow: #64fb06;
 	margin: 10px;
 	padding: 2px;
 	border-radius: 10px;
@@ -49,8 +50,16 @@ button {
 	display: grid;
 	place-content: center;
 	min-height: 100dvh;
+	border-radius: 50%;
+	border-bottom: double;
+	border-color: rgb(250, 217, 0);
+	border-width: 10px;
+	font-size: 20px;
+	animation: 3s linear infinite;
+	text-shadow: 2px 2px 2px #64fb06;
 }
 .container {
+	text-shadow: #64fb06;
 	width: 100%;
 	height: 100vh; /* Alto de la pantalla completa */
 	background-image: url('./assets/img2.png'); /* Asegúrate de colocar la ruta correcta de la imagen */
@@ -59,5 +68,6 @@ button {
 	background-position: center; /* Centra la imagen en el contenedor */
 }
 .phrases {
+	text-shadow: #64fb06;
 	background-color: #5ebe3b;
 }
