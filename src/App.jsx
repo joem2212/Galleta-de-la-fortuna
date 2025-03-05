@@ -76,9 +76,8 @@ function App() {
 				<h1>galleta de la fortuna</h1>
 
 				<PhraseCard phrase={phrase.phrase} author={phrase.author} />
-
-				<Button handelPhrase={changePhrase}>Obtener Phrase</Button>
 			</div>
+			<Button handelPhrase={changePhrase}>Obtener Frase</Button>
 		</>
 	);
 }
